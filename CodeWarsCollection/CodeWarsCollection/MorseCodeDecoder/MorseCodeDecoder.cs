@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 using System.Runtime.CompilerServices;
 
@@ -24,9 +25,52 @@ namespace CodeWarsCollection.MorseCodeDecoder
 
     public class MorseCode
     {
+        private static Dictionary<string, string> _morseCodes = new Dictionary<string, string>
+        {
+            {".-", "A"},
+            {"-...", "B"},
+            {"-.-.", "C"},
+            {"-..", "D"},
+            {".", "E"},
+            {"..-.", "F"},
+            {"--.", "G"},
+            {"....", "H"},
+            {"..", "I"},
+            {".---", "J"},
+            {"-.-", "K"},
+            {".-..", "L"},
+            {"--", "M"},
+            {"-.", "N"},
+            {"---", "O"},
+            {".--.", "P"},
+            {"--.-", "Q"},
+            {".-.", "R"},
+            {"...", "S"},
+            {"-", "T"},
+            {"..-", "U"},
+            {"...-", "V"},
+            {".--", "W"},
+            {"-..-", "X"},
+            {"-.--", "Y"},
+            {"--..", "Z"},
+            {".----", "1"},
+            {"..---", "2"},
+            {"...--", "3"},
+            {"....-", "4"},
+            {".....", "5"},
+            {"-....", "6"},
+            {"--...", "7"},
+            {"---..", "8"},
+            {"----.", "9"},
+            {"-----", "0"},
+            {"...---...", "SOS"},
+            {".-.-.-", "."},
+            {"-.-.--", "!"}
+        };
+
         public static string Get(string code)
         {
-            return "x";
+            return _morseCodes.ContainsKey(code) ? _morseCodes[code] : throw new ArgumentException("Unknown morse code received", code);
         }
     }
 }

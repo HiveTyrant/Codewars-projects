@@ -49,6 +49,8 @@
     <Compile Include="Dubstep\DubstepTests.cs" />
     <Compile Include="MorseCodeDecoder\MorseCodeDecoder.cs" />
     <Compile Include="MorseCodeDecoder\MorseCodeDecoderTests.cs" />
+    <Compile Include="Product of consecutive Fib numbers\ProdFib.cs" />
+    <Compile Include="Product of consecutive Fib numbers\ProdFibTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RegularBallSuperBall\Ball.cs" />
   </ItemGroup>

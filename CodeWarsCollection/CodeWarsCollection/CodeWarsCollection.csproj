@@ -55,6 +55,8 @@
     <Compile Include="Product of consecutive Fib numbers\ProdFibTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RegularBallSuperBall\Ball.cs" />
+    <Compile Include="Roman Numerals Decoder\RomanDecode.cs" />
+    <Compile Include="Roman Numerals Decoder\RomanDecodeTests.cs" />
     <Compile Include="Scramblies\Scramblies.cs" />
     <Compile Include="Scramblies\ScrambliesTests.cs" />
     <Compile Include="Which are in\WhichAreIn.cs" />

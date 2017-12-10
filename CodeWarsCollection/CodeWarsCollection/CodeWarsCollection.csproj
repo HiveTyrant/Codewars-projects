@@ -47,6 +47,8 @@
     <Compile Include="CreditCardMask\CreditCardMaskTests.cs" />
     <Compile Include="Dubstep\Dubstep.cs" />
     <Compile Include="Dubstep\DubstepTests.cs" />
+    <Compile Include="Human Readable Time\TimeFormat.cs" />
+    <Compile Include="Human Readable Time\HumanReadableTimeTest.cs" />
     <Compile Include="MorseCodeDecoder\MorseCodeDecoder.cs" />
     <Compile Include="MorseCodeDecoder\MorseCodeDecoderTests.cs" />
     <Compile Include="Product of consecutive Fib numbers\ProdFib.cs" />
@@ -55,6 +57,8 @@
     <Compile Include="RegularBallSuperBall\Ball.cs" />
     <Compile Include="Scramblies\Scramblies.cs" />
     <Compile Include="Scramblies\ScrambliesTests.cs" />
+    <Compile Include="Which are in\WhichAreIn.cs" />
+    <Compile Include="Which are in\DubstepTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
